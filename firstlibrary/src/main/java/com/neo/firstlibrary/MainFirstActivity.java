@@ -11,6 +11,6 @@ public class MainFirstActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Toast.makeText(this, "热修复成功", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "热修复效果看TextView，成功了是热修复3333333", Toast.LENGTH_SHORT).show();
     }
 }
