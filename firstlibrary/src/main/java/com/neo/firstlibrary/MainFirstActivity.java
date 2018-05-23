@@ -7,7 +7,7 @@ import android.widget.Toast;
 
 public class MainFirstActivity extends AppCompatActivity {
 
-    private String tag ="one";
+    private String tag ="two";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
