@@ -10,12 +10,33 @@
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:gravity="center"
+        android:background="#ddd"
+        android:textColor="#333"
         android:text="这是MyFirstBundle"/>
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:gravity="center"
+        android:background="#ddd"
+        android:textColor="#333"
         android:layout_marginTop="15dp"
         android:text="热修复4444444444444"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:gravity="center"
+        android:background="#ddd"
+        android:textColor="#333"
+        android:layout_marginTop="15dp"
+        android:onClick="clickNullPoint"
+        android:text="点击报空指针"/>
 
 </LinearLayout>

@@ -3,6 +3,8 @@ package com.neo.firstlibrary;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
+import android.view.View;
 import android.widget.Toast;
 
 public class MainFirstActivity extends AppCompatActivity {
@@ -24,5 +26,10 @@ public class MainFirstActivity extends AppCompatActivity {
             Toast.makeText(this, "成功了是热修复55555555555555", Toast.LENGTH_SHORT).show();
         }
 
+    }
+
+    public void clickNullPoint(View view) {
+        Log.e("SSSSS","======new NullPointerException=====");
+        throw new NullPointerException();
     }
 }
