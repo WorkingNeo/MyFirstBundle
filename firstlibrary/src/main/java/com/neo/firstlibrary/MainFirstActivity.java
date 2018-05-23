@@ -2,15 +2,27 @@ package com.neo.firstlibrary;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.widget.Toast;
 
 public class MainFirstActivity extends AppCompatActivity {
+
+    private String tag ="one";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Toast.makeText(this, "热修复效果看TextView，成功了是热修复444444444444", Toast.LENGTH_SHORT).show();
+        if(!TextUtils.isEmpty(tag) && tag.equals("one")){
+            Toast.makeText(this, "成功了是热修复11111111111111", Toast.LENGTH_SHORT).show();
+        }else if(!TextUtils.isEmpty(tag) && tag.equals("two")){
+            Toast.makeText(this, "成功了是热修复22222222222222", Toast.LENGTH_SHORT).show();
+        }else if(!TextUtils.isEmpty(tag) && tag.equals("three")){
+            Toast.makeText(this, "成功了是热修复33333333333333", Toast.LENGTH_SHORT).show();
+        }else {
+            Toast.makeText(this, "成功了是热修复55555555555555", Toast.LENGTH_SHORT).show();
+        }
+
     }
 }
