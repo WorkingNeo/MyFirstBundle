@@ -26,6 +26,8 @@ public class MainFirstActivity extends AppCompatActivity {
             Toast.makeText(this, "成功了是热修复55555555555555", Toast.LENGTH_SHORT).show();
         }
 
+
+        Toast.makeText(this, "动态部署结果1", Toast.LENGTH_SHORT).show();
     }
 
     public void clickNullPoint(View view) {
