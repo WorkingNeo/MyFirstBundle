@@ -9,7 +9,7 @@ import android.widget.Toast;
 
 public class MainFirstActivity extends AppCompatActivity {
 
-    private String tag ="one";
+    private String tag ="two";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +25,9 @@ public class MainFirstActivity extends AppCompatActivity {
         }else {
             Toast.makeText(this, "成功了是热修复55555555555555", Toast.LENGTH_SHORT).show();
         }
+
+
+        Toast.makeText(this, "动态部署效果1"+BuildConfig.VERSION_NAME, Toast.LENGTH_SHORT).show();
 
     }
 
