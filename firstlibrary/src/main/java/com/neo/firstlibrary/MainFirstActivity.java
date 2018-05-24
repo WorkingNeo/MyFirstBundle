@@ -9,7 +9,7 @@ import android.widget.Toast;
 
 public class MainFirstActivity extends AppCompatActivity {
 
-    private String tag ="one";
+    private String tag ="two";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +30,6 @@ public class MainFirstActivity extends AppCompatActivity {
 
     public void clickNullPoint(View view) {
         Log.e("SSSSS","======new NullPointerException=====");
-        throw new NullPointerException();
+        //throw new NullPointerException();
     }
 }
