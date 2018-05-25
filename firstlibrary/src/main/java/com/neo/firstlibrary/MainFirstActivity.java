@@ -27,7 +27,7 @@ public class MainFirstActivity extends AppCompatActivity {
         }
 
 
-        Toast.makeText(this, "动态部署效果22222"+BuildConfig.VERSION_NAME, Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "动态部署效果3333"+BuildConfig.VERSION_NAME, Toast.LENGTH_LONG).show();
 
     }
 
